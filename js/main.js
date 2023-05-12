@@ -20,6 +20,7 @@ async function fetchPokemonImage(url) {
     const response = await fetch(url)
     const jsonData = await response.json()
     console.log(jsonData)
-    console.log(jsonData.sprites.back_default)
-    document.querySelector('img').src = jsonData.sprites.back_default
+    console.log(jsonData.sprites.front_shiny)
+    console.log(jsonData.sprites)
+    document.querySelector('img').src = jsonData.sprites.front_shiny
 }
