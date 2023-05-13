@@ -9,9 +9,15 @@ body {
     margin: 0 auto;
     padding-top: 1rem;
     border: 1px solid white;
-    max-width: 300px
+    max-width: 300px;
+    min-height: 270px;
 }
 
 #container > img {
     width: 50%;
+}
+
+.ringOfFire {
+    /* border: 4px dashed red; */
+    background-color: maroon;
 }

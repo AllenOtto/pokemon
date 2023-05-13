@@ -24,3 +24,32 @@ async function fetchPokemonImage(url) {
     console.log(jsonData.sprites)
     document.querySelector('img').src = jsonData.sprites.front_shiny
 }
+
+
+document.querySelector('#btn').onclick = function() {
+    const container = document.querySelector('div')
+    container.classList.add('ringOfFire')
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
